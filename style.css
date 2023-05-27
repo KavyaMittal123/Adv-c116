@@ -1,0 +1,18 @@
+.btn-primary:hover{
+    background-color:aqua;
+    color:black;
+}
+canvas{
+    animation-name:example;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    margin-top: 100px;
+}
+@keyframes example {
+    from {box-shadow:3px 3px 100px rgb(0, 96, 3);}
+    to {box-shadow:3px 3px 100px #30f7ed;}
+}
+body{
+    background-size:cover;
+    background-position:center;
+}
